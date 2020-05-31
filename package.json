@@ -1,0 +1,26 @@
+{
+  "name": "binary-search",
+  "version": "1.0.0",
+  "description": "algorithm to find a value in an ascendent sorted array",
+  "main": "binary-search.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "jest --coverage --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaacBejarano/binary-search.git"
+  },
+  "author": "Isaac Bejarano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isaacBejarano/binary-search/issues"
+  },
+  "homepage": "https://github.com/isaacBejarano/binary-search#readme",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  },
+  "dependencies": {
+    "@types/jest": "^25.2.3"
+  }
+}
