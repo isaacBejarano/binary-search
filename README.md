@@ -1,17 +1,19 @@
-# Algorithm
+# Test the Algorithm
 
-Binary Search
+Install dependencies:
+``` bash
+npm i
+```
 
-# Description
+And execute the script on terminal to test the JEST suite.
+``` bash
+npm run test:watch
+```
 
-It searches a value in an ascendent sorted array.
-It uses recursion.
-It returns booleans: true if value is found, false if not found.
+# Binary Search Algorithm
+- It searches a value in an ascendent sorted array.
+- It uses recursion.
+- It returns booleans: true if value is found, false if not found.
 
-# Time
-
+## Algorithmic Time
 O(log n)
-
-# Series
-
-Classic Algorithms in Javascript

@@ -1,7 +1,7 @@
 // precondition -> (array sorted ASC)
 
 const binarySearch = (array, value) => {
-	let found = false; // def
+	let found = -1; // def: Not Found
 
 	// I. SCOPE
 	let left = 0; // left index
@@ -20,11 +20,11 @@ const binarySearch = (array, value) => {
 		}
 
 		// 3. left === right --> while loop end
-		if (value === array[mid]) found = true;
+		if (value === array[mid]) found = mid;
 	}
 
-	return found; // 4. true/false
+	return found; // Found Index
 };
 
 // TEST
-// module.exports = { binarySearch }; // uncomment to test
+module.exports = { binarySearch }; // uncomment to test
